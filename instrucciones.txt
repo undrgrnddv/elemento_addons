@@ -1,0 +1,7 @@
+
+# 🎯 The easy way: Override the command
+    command: >
+      /bin/bash -c "
+      pip3 install --no-cache-dir -r <(find /mnt/extra-addons -name 'requirements.txt' -type f)
+      && /usr/bin/odoo
+      "
