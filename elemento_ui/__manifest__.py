@@ -13,6 +13,9 @@
         'disable_odoo_online',
         'portal_odoo_debranding',
         'remove_odoo_enterprise',
+        'mail_debrand',
+
+
     ],
     'installable': True,
     'application': True,
