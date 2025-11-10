@@ -26,13 +26,17 @@
         'account_statement_import_ofx',
         'account_payment_show_invoice',
         'account_payment_widget_amount',
-#        'account_due_list',
+#        'account_due_list', # This module adds a pending payments due list. 
         'account_payment_method_base',
         'account_payment_partner',
         'account_payment_purchase',
         'account_payment_sale',
 #        'product_form_account_move_line_link',
 #        'stock_account_move_reset_to_draft',
+        'account_invoice_supplier_ref_unique', # This module checks that a supplier invoice/refund is not entered twice.
+#        'account_loan', # This module extends the functionality of accounting to support loans.
+        'account_invoice_supplier_ref_unique' # Checks that supplier invoices are not entered twice
+
     ],
     'installable': True,
     'application': True,
