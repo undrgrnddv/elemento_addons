@@ -26,7 +26,7 @@
         'account_statement_import_ofx',
         'account_payment_show_invoice',
         'account_payment_widget_amount',
-#        'account_due_list', # This module adds a pending payments due list. 
+        'account_due_list', # This module adds a pending payments due list. 
         'account_payment_method_base',
         'account_payment_partner',
         'account_payment_purchase',
