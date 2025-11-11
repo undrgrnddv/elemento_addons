@@ -14,6 +14,7 @@
         'sale_stock_line_sequence', # Glue module between Sale Order Line Sequence and Stock Picking Line Sequence
         'sale_partner_incoterm', # Set the customer preferred incoterm on each sales order
         # 'sale_order_lot_selection' # allows you to select a lot number on sale order line
+
     ],
     'installable': True,
     'application': True,

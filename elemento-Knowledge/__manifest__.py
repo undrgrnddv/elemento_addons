@@ -4,7 +4,8 @@
     'summary': 'Instala Modulos de Servidor',
     'category': 'Elemento Custom',
     'depends': [
-        'auto_backup',
+        'document_knowledge',
+        'document_page',
     ],
     'installable': True,
     'application': True,
