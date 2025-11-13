@@ -8,12 +8,11 @@
         'sale_order_product_availability_inline', #Show product availability in sales order line product drop-down.
         'sale_order_line_sequence', #Propagates SO line sequence to invoices and stock picking.
         'sale_order_line_remove', # Allows removal of sale order lines from confirmed orders if not invoiced or received
-        'sale_stock_partner_warehouse', # Allow to choose by default a warehouse on SO based on a Partner parameter.
         'sale_sourced_by_line', # source a line of sale order from a specific warehouse instead of using the warehouse of the sale order
         'sale_stock_picking_note', # Include external (customer) and internal picking note that will be transferred to the picking
         'sale_stock_line_sequence', # Glue module between Sale Order Line Sequence and Stock Picking Line Sequence
         'sale_partner_incoterm', # Set the customer preferred incoterm on each sales order
-        # 'sale_order_lot_selection' # allows you to select a lot number on sale order line
+        # 'sale_order_lot_selection' # allows you to select a lot number on sale order line (Falta desarrollar para funcionalidad completa)
 
     ],
     'installable': True,
