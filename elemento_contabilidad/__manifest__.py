@@ -13,6 +13,8 @@
         'account_move_line_purchase_info', # Introduces the purchase order line to the journal items
 #        'account_dashboard_banner_mis_builder', # Display MIS builder KPIs in the accounting dashboard banner
 #        'account_dashboard_banner', # Add a configurable banner on the accounting dashboard
+#        'account_loan', # This module extends the functionality of accounting to support loans.
+
         
          # account-financial-reporting Repo https://github.com/OCA/account-financial-reporting
         'account_financial_report', # OCA Financial Reports
@@ -54,7 +56,6 @@
         'account_payment_purchase', # Adds Bank Account and Payment Mode on Purchase Orders
         'account_payment_sale', # Adds payment mode on sale orders
         
-#        'account_loan', # This module extends the functionality of accounting to support loans.
 
     ],
     'installable': True,
