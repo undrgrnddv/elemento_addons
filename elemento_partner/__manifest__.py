@@ -5,8 +5,6 @@
     'category': 'Elemento Custom',
     'depends': [
         # partner-contact Repo https://github.com/OCA/partner-contact
-        'base_location', # Enhanced zip/npa management system
-        'base_location_geonames_import', # Import zip entries from Geonames
         'partner_property', # This module adds the use of properties in partners (different for companies and individuals).
         'partner_supplier_ref', # Adds a supplier reference to contacts
         'partner_ref_unique', # Add an unique constraint to partner ref field
